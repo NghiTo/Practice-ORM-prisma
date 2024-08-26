@@ -1,0 +1,1259 @@
+2024-08-20 19:37:59 [ERROR]: Error: Invalid or expired token
+    at authentication (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authenticate.js:25:7)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+2024-08-20 19:51:25 [ERROR]: Error: Can't find /api/users/register on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-20 19:55:28 [ERROR]: Error: Can't find /api/users/login on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-21 08:11:41 [ERROR]: Error: No permission to access this data
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authorize.js:42:9
+2024-08-21 08:12:11 [ERROR]: Error: Can not create customer with diferent employeeNumber
+    at checkRoleCreate (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/middlewares/checkRole.js:133:9)
+2024-08-21 08:17:01 [ERROR]: Error: No permission to access this data
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authorize.js:42:9
+2024-08-21 08:26:15 [ERROR]: Error: No permission to access this data
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authorize.js:42:9
+2024-08-21 08:31:28 [ERROR]: Error: Can't find /api/logs/66c5401ff24b970b2f29d64b on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-21 08:36:00 [ERROR]: ValidationError: info validation failed: level: `info` is not a valid enum value for path `level`.
+    at Document.invalidate (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3312:32)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3073:17
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-08-21 08:39:34 [ERROR]: ValidationError: info validation failed: level: `info` is not a valid enum value for path `level`.
+    at Document.invalidate (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3312:32)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3073:17
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-08-21 08:39:48 [ERROR]: ValidationError: info validation failed: level: `info` is not a valid enum value for path `level`.
+    at Document.invalidate (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3312:32)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3073:17
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-08-21 08:41:26 [ERROR]: ValidationError: info validation failed: level: `info` is not a valid enum value for path `level`.
+    at Document.invalidate (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3312:32)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3073:17
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-08-21 08:42:18 [ERROR]: ValidationError: info validation failed: level: `info` is not a valid enum value for path `level`.
+    at Document.invalidate (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3312:32)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3073:17
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-08-21 08:43:39 [ERROR]: ValidationError: info validation failed: level: `info` is not a valid enum value for path `level`.
+    at Document.invalidate (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3312:32)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3073:17
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-08-21 08:44:17 [ERROR]: ValidationError: info validation failed: level: `info` is not a valid enum value for path `level`.
+    at Document.invalidate (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3312:32)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\document.js:3073:17
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schemaType.js:1388:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:77:11)
+2024-08-21 09:50:29 [ERROR]: Error: Invalid or expired token
+    at authentication (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authenticate.js:25:7)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+2024-08-21 09:52:37 [ERROR]: Error: Invalid or expired token
+    at authentication (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authenticate.js:25:7)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+2024-08-21 09:53:13 [ERROR]: Error: No permission to access this data
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authorize.js:42:9
+2024-08-21 09:56:08 [ERROR]: Error: Can not create customer with diferent employeeNumber
+    at checkRoleCreate (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/middlewares/checkRole.js:133:9)
+2024-08-21 10:08:10 [ERROR]: ReferenceError: res is not defined
+    at Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:60:3)
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/logController.js:10:33
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+2024-08-21 10:09:18 [ERROR]: ReferenceError: res is not defined
+    at Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:60:3)
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/logController.js:10:33
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+2024-08-21 10:10:28 [ERROR]: ReferenceError: res is not defined
+    at Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:60:3)
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/logController.js:10:33
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+2024-08-21 10:12:59 [ERROR]: ReferenceError: res is not defined
+    at Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:60:3)
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/logController.js:10:33
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+2024-08-21 10:13:13 [ERROR]: ReferenceError: res is not defined
+    at Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:60:3)
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/logController.js:10:33
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+2024-08-21 10:13:23 [ERROR]: ReferenceError: res is not defined
+    at Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:60:3)
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/logController.js:10:33
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+2024-08-21 10:14:26 [ERROR]: ReferenceError: res is not defined
+    at Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:60:3)
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/logController.js:10:33
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+2024-08-21 10:15:38 [ERROR]: ReferenceError: res is not defined
+    at Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:60:3)
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/logController.js:10:33
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+2024-08-21 10:34:42 [ERROR]: Error: No permission to access this data
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authorize.js:42:9
+2024-08-21 10:35:01 [ERROR]: Error: No permission to access this data
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authorize.js:42:9
+2024-08-21 11:06:36 [ERROR]: Error: Log is not found
+    at Object.updateLogLevel (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:20:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/logController.js:5:18
+2024-08-21 11:07:01 [ERROR]: Error: Log is not found
+    at Object.updateLogLevel (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:20:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/logController.js:5:18
+2024-08-21 16:10:25 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.offices.create()` invocation:
+
+{
+  data: {
+    officeCode: 1,
+                ~
+    city: "New York",
+    phone: "123-456-7890",
+    addressLine1: "123 5th Avenue",
+    addressLine2: "Suite Liber 100",
+    state: "NY",
+    postalCode: "10001",
+    country: "USA",
+    territory: "North America"
+  }
+}
+
+Argument `officeCode`: Invalid value provided. Expected String, provided Int.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7392)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createOffice (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/officeService.js:6:3)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/officeController.js:5:18
+2024-08-21 16:15:17 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.employees.create()` invocation:
+
+{
+  data: {
+    lastName: "9999",
+    officeCode: "1",
++   firstName: String
+  }
+}
+
+Argument `firstName` is missing.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7392)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createOffice (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/officeService.js:7:3)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/officeController.js:5:18
+2024-08-21 16:19:33 [ERROR]: PrismaClientKnownRequestError: 
+Invalid `prisma.offices.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7749)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createOffice (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/officeService.js:6:3)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/officeController.js:5:18
+2024-08-21 16:19:56 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.employees.create()` invocation:
+
+{
+  data: {
+    lastName: "9999",
+    officeCode: "2",
+    firstName: "Caitlyn",
++   extension: String
+  }
+}
+
+Argument `extension` is missing.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7392)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createOffice (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/officeService.js:7:3)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/officeController.js:5:18
+2024-08-21 16:20:17 [ERROR]: PrismaClientKnownRequestError: 
+Invalid `prisma.offices.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7749)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createOffice (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/officeService.js:6:3)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/officeController.js:5:18
+2024-08-21 16:20:57 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.employees.create()` invocation:
+
+{
+  data: {
+    lastName: "9999",
+    officeCode: "2",
+    firstName: "Caitlyn",
+    extension: "k564",
++   email: String
+  }
+}
+
+Argument `email` is missing.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7392)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createOffice (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/officeService.js:7:3)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/officeController.js:5:18
+2024-08-21 16:22:05 [ERROR]: Error: Can't find /api/offices on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-21 21:22:51 [ERROR]: Error: No token provided
+    at authentication (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authenticate.js:11:7)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+2024-08-21 21:22:57 [ERROR]: Error: Wrong username or password
+    at Object.loginUser (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/userService.js:33:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/userController.js:10:17
+2024-08-21 21:27:51 [ERROR]: Error: Can't find /api/offices on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-21 21:41:54 [ERROR]: Error: Cannot delete the default employee. Delete the office instead.
+    at Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:68:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-21 21:42:04 [ERROR]: Error: Cannot delete the default employee. Delete the office instead.
+    at Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:68:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-21 21:42:08 [ERROR]: Error: Cannot delete the default employee. Delete the office instead.
+    at Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:68:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-21 21:47:19 [ERROR]: Error: Employee not found
+    at Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:51:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-21 21:47:26 [ERROR]: Error: Cannot delete the default employee. Delete the office instead.
+    at Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:68:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-21 21:57:47 [ERROR]: PrismaClientKnownRequestError: 
+Invalid `prisma.employees.create()` invocation:
+
+
+Foreign key constraint failed on the field: `officeCode`
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7749)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:7:3)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:6:18
+2024-08-21 22:00:03 [ERROR]: PrismaClientKnownRequestError: 
+Invalid `prisma.employees.create()` invocation:
+
+
+Foreign key constraint failed on the field: `officeCode`
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7749)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:7:3)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:6:18
+2024-08-21 22:00:09 [ERROR]: PrismaClientKnownRequestError: 
+Invalid `prisma.employees.create()` invocation:
+
+
+Foreign key constraint failed on the field: `officeCode`
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7749)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:7:3)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:6:18
+2024-08-21 22:02:05 [ERROR]: Error: Office is not found
+    at Object.createEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:12:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:6:18
+2024-08-21 22:53:42 [ERROR]: Error: Cannot delete default employee
+    at Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:57:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-21 22:56:32 [ERROR]: Error: Office is not found
+    at Object.createEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:12:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:6:18
+2024-08-21 23:01:18 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.customers.updateMany()` invocation:
+
+{
+  0: {
+  ~
+    customerNumber: 1,
+    customerName: "Initech LLC",
+    contactLastName: "Doe",
+    contactFirstName: "John",
+    phone: "345-678-9012",
+    addressLine1: "789 Maple Ave",
+    addressLine2: "Suite Norman 100",
+    city: "Anytown",
+    state: "CA",
+    postalCode: "12345",
+    country: "USA",
+    salesRepEmployeeNumber: 8,
+    creditLimit: 50000
+  },
+  salesRepEmployeeNumber: 2,
+? data?: customersUpdateManyMutationInput | customersUncheckedUpdateManyInput,
+? where?: customersWhereInput
+}
+
+Unknown argument `0`. Available options are marked with ?.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7392)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:71:5)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-22 08:38:56 [ERROR]: PrismaClientKnownRequestError: 
+Invalid `prisma.employees.create()` invocation:
+
+
+Unique constraint failed on the constraint: `employees_email_key`
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7749)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:25:5)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:6:18
+2024-08-22 08:40:24 [ERROR]: ReferenceError: customerSchema is not defined
+    at Object.createEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:25:25)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:6:18
+2024-08-22 08:40:37 [ERROR]: PrismaClientKnownRequestError: 
+Invalid `prisma.employees.create()` invocation:
+
+
+Unique constraint failed on the constraint: `employees_email_key`
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7749)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:35:5)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:6:18
+2024-08-22 09:46:05 [ERROR]: ReferenceError: officeService is not defined
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/reportController.js:4:18
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+2024-08-22 09:54:45 [ERROR]: Error: Office is not found
+    at Object.getReportByOfficeCode (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/reportService.js:11:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/reportController.js:5:18
+2024-08-22 10:58:24 [ERROR]: PrismaClientKnownRequestError: 
+Invalid `prisma.employees.create()` invocation:
+
+
+Unique constraint failed on the constraint: `employees_email_key`
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7749)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:26:5)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:6:18
+2024-08-22 13:25:52 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.employees.findUnique()` invocation:
+
+{
+  where: {
+    lastName: "9999",
+?   employeeNumber?: Int,
+?   email?: String,
+?   AND?: employeesWhereInput | employeesWhereInput[],
+?   OR?: employeesWhereInput[],
+?   NOT?: employeesWhereInput | employeesWhereInput[],
+?   firstName?: StringFilter | String,
+?   extension?: StringFilter | String,
+?   officeCode?: StringFilter | String,
+?   reportsTo?: IntNullableFilter | Int | Null,
+?   jobTitle?: StringFilter | String,
+?   customers?: CustomersListRelationFilter,
+?   users?: UsersListRelationFilter,
+?   office?: OfficesRelationFilter | officesWhereInput
+  }
+}
+
+Argument `where` of type employeesWhereUniqueInput needs at least one of `employeeNumber` or `email` arguments. Available options are marked with ?.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7392)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:71:27)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-22 13:29:20 [ERROR]: Error: Cannot delete default employee
+    at Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:85:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-22 13:29:42 [ERROR]: TypeError: Cannot read properties of null (reading 'employeeNumber')
+    at Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:75:47)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-22 13:31:15 [ERROR]: Error: Employee is not found
+    at Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:76:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-22 13:31:24 [ERROR]: Error: Cannot delete default employee
+    at Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:82:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-22 13:33:21 [ERROR]: Error: Office is not found
+    at Object.getReportByOfficeCode (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/reportService.js:11:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/reportController.js:5:18
+2024-08-22 13:35:00 [ERROR]: Error: Office is not found
+    at Object.getReportByOfficeCode (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/reportService.js:11:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/reportController.js:5:18
+2024-08-22 13:35:11 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.offices.findUnique()` invocation:
+
+{
+  where: {
+    officeCode: undefined,
+?   AND?: officesWhereInput | officesWhereInput[],
+?   OR?: officesWhereInput[],
+?   NOT?: officesWhereInput | officesWhereInput[],
+?   city?: StringFilter | String,
+?   phone?: StringFilter | String,
+?   addressLine1?: StringFilter | String,
+?   addressLine2?: StringFilter | String,
+?   state?: StringNullableFilter | String | Null,
+?   country?: StringFilter | String,
+?   postalCode?: StringNullableFilter | String | Null,
+?   territory?: StringNullableFilter | String | Null,
+?   employees?: EmployeesListRelationFilter
+  }
+}
+
+Argument `where` of type officesWhereUniqueInput needs at least one of `officeCode` arguments. Available options are marked with ?.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7392)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.getReportByOfficeCode (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/reportService.js:7:18)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/reportController.js:5:18
+2024-08-22 13:43:39 [ERROR]: Error: Can't find /api/users/registeraslkdjlaksdja on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-22 13:46:38 [ERROR]: Error: Can't find /api/users/registeraslkdjlaksdja on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-22 13:47:24 [ERROR]: Error: Can't find /api/users/registeraslkdjlaksdja on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-22 13:49:06 [ERROR]: Error: Can't find /api/users/registeraslkdjlaksdja on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-22 13:49:33 [ERROR]: Error: Can't find /api/users/registeraslkdjlaksdja on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-22 15:07:48 [ERROR]: Error: Invalid or expired token
+    at authentication (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authenticate.js:25:7)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+2024-08-22 16:17:18 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.orders.findMany()` invocation:
+
+{
+  where: {
+    customerNumber: 1,
+    shippedDate: {
+      gte: new Date("Invalid Date"),
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+      lte: new Date("Invalid Date")
+    }
+  }
+}
+
+Invalid value for argument `gte`: Provided Date object is invalid. Expected Date.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at e.throwValidationError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:12187)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10208)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at Ar (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8607)
+    at el (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8472)
+2024-08-22 16:23:03 [ERROR]: Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-08-22 20:40:05 [ERROR]: Error: No token provided
+    at authentication (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authenticate.js:11:7)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+2024-08-22 20:46:30 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.orders.findMany()` invocation:
+
+{
+  where: {
+    customerNumber: 1,
+    shippedDate: {
+      gte: new Date("Invalid Date"),
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+      lte: new Date("2020-12-09T00:00:00.000Z")
+    }
+  }
+}
+
+Invalid value for argument `gte`: Provided Date object is invalid. Expected Date.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at e.throwValidationError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:12187)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10208)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at Ar (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8607)
+    at el (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8472)
+2024-08-23 14:08:43 [ERROR]: Error: Employee number is invalid
+    at Object.createUser (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/userService.js:16:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/userController.js:5:18
+2024-08-23 14:08:48 [ERROR]: Error: Employee number is invalid
+    at Object.createUser (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/userService.js:16:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/userController.js:5:18
+2024-08-23 14:08:56 [ERROR]: Error: No token provided
+    at authentication (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authenticate.js:11:7)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+2024-08-23 14:09:01 [ERROR]: Error: No token provided
+    at authentication (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authenticate.js:11:7)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+2024-08-23 14:11:04 [ERROR]: Error: Employee number is invalid
+    at Object.createUser (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/userService.js:16:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/userController.js:5:18
+2024-08-23 14:13:08 [ERROR]: Error: Employee number is invalid
+    at Object.createUser (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/userService.js:17:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/userController.js:5:18
+2024-08-23 14:13:46 [ERROR]: Error: Can't find /api/users/loginasdasd on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-23 14:13:52 [ERROR]: Error: Can't find /api/users/registerasdasd on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-23 14:14:00 [ERROR]: Error: Wrong username or password
+    at Object.loginUser (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/userService.js:44:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/userController.js:10:17
+2024-08-23 14:14:37 [ERROR]: Error: Wrong username or password
+    at Object.loginUser (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/userService.js:48:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/userController.js:10:17
+2024-08-23 14:15:06 [ERROR]: Error: Can't find /api/employeesasdasdasd on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:20:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-23 14:15:37 [ERROR]: Error: Office is not found
+    at Object.createEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:14:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:6:18
+2024-08-23 14:17:35 [ERROR]: Error: No permission to access this data
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authorize.js:43:9
+2024-08-23 14:18:41 [ERROR]: Error: Employee is not found
+    at Object.getEmployeeById (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:56:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:17:20
+2024-08-23 14:18:47 [ERROR]: Error: Employee is not found
+    at Object.getEmployeeById (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:56:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:17:20
+2024-08-23 14:19:00 [ERROR]: Error: Invalid or expired token
+    at authentication (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authenticate.js:25:7)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+2024-08-23 14:20:16 [ERROR]: Error: No permission to access this data
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authorize.js:43:9
+2024-08-23 14:20:44 [ERROR]: ReferenceError: defaultEmployee is not defined
+    at Object.deleteEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:90:39)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:23:18
+2024-08-23 14:58:03 [ERROR]: Error: Please log in
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authorize.js:14:9
+2024-08-23 15:02:55 [ERROR]: Error: Please log in
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authorize.js:14:12
+2024-08-23 15:03:16 [ERROR]: Error: Please log in
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authorize.js:14:19
+2024-08-23 15:04:56 [ERROR]: Error: Please log in
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authorize.js:14:19
+2024-08-23 15:05:00 [ERROR]: Error: Wrong username or password
+    at Object.loginUser (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/userService.js:38:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/userController.js:10:17
+2024-08-23 15:09:11 [ERROR]: Error: Invalid sales representative
+    at Object.updateCustomer (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/customerService.js:92:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/customerController.js:30:18
+2024-08-23 15:18:20 [ERROR]: Error: Can't find /api/employeesasdasdasdasd on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:21:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at Route.dispatch (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:119:3)
+2024-08-23 15:37:37 [ERROR]: PrismaClientKnownRequestError: 
+Invalid `prisma.offices.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7749)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createOffice (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/officeService.js:6:3)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/officeController.js:5:18
+2024-08-23 15:38:22 [ERROR]: PrismaClientKnownRequestError: 
+Invalid `prisma.employees.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7749)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/employeeService.js:23:5)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/employeeController.js:6:18
+2024-08-23 15:42:45 [ERROR]: Error: Customer number is invalid
+    at Object.createCustomer (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/customerService.js:19:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/customerController.js:6:18
+2024-08-23 15:43:03 [ERROR]: Error: Customer number is invalid
+    at Object.createCustomer (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/customerService.js:19:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/customerController.js:6:18
+2024-08-23 15:46:47 [ERROR]: PrismaClientKnownRequestError: 
+Invalid `prisma.offices.create()` invocation:
+
+
+Unique constraint failed on the constraint: `PRIMARY`
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7749)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createOffice (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/officeService.js:6:3)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/officeController.js:5:18
+2024-08-24 19:30:13 [ERROR]: CastError: Cast to date failed for value "Invalid Date" (type Date) at path "createdAt" for model "log"
+    at SchemaDate.cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:426:18)
+    at cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\cast.js:352:39)
+    at Query.cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:4857:12)
+    at Query._castConditions (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:2265:10)
+    at model.Query._find (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:2292:8)
+    at model.Query.exec (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:4401:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:47:10)
+2024-08-24 19:31:01 [ERROR]: CastError: Cast to date failed for value "Invalid Date" (type Date) at path "createdAt" for model "log"
+    at SchemaDate.cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:426:18)
+    at cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\cast.js:352:39)
+    at Query.cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:4857:12)
+    at Query._castConditions (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:2265:10)
+    at model.Query._find (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:2292:8)
+    at model.Query.exec (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:4401:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:47:10)
+2024-08-24 19:31:07 [ERROR]: CastError: Cast to date failed for value "Invalid Date" (type Date) at path "createdAt" for model "log"
+    at SchemaDate.cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:426:18)
+    at cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\cast.js:352:39)
+    at Query.cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:4857:12)
+    at Query._castConditions (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:2265:10)
+    at model.Query._find (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:2292:8)
+    at model.Query.exec (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:4401:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:47:10)
+2024-08-24 19:31:43 [ERROR]: CastError: Cast to date failed for value "Invalid Date" (type Date) at path "createdAt" for model "log"
+    at SchemaDate.cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:426:18)
+    at cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\cast.js:352:39)
+    at Query.cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:4857:12)
+    at Query._castConditions (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:2265:10)
+    at model.Query._find (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:2292:8)
+    at model.Query.exec (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:4401:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:47:10)
+2024-08-24 19:31:46 [ERROR]: CastError: Cast to date failed for value "Invalid Date" (type Date) at path "createdAt" for model "log"
+    at SchemaDate.cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:426:18)
+    at cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\cast.js:352:39)
+    at Query.cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:4857:12)
+    at Query._castConditions (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:2265:10)
+    at model.Query._find (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:2292:8)
+    at model.Query.exec (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:4401:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:47:10)
+2024-08-24 19:33:04 [ERROR]: CastError: Cast to date failed for value "Invalid Date" (type Date) at path "createdAt" for model "log"
+    at SchemaDate.cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:376:11)
+    at SchemaDate.handleSingle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:388:15)
+    at SchemaDate.castForQuery (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\schema\date.js:426:18)
+    at cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\cast.js:352:39)
+    at Query.cast (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:4857:12)
+    at Query._castConditions (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:2265:10)
+    at model.Query._find (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:2292:8)
+    at model.Query.exec (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\mongoose\lib\query.js:4401:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.getLogInfo (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/logService.js:47:10)
+2024-08-25 01:10:24 [ERROR]: Error: Invalid or expired token
+    at authentication (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authenticate.js:26:7)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+2024-08-25 01:33:09 [ERROR]: Error: Can't find /api/offices on this server
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/setupMiddlewares.js:23:7
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:145:7)
+2024-08-25 01:34:16 [ERROR]: Error: Office code is invalid
+    at Object.createOffice (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/officeService.js:13:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/officeController.js:5:18
+2024-08-25 02:04:35 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.offices.create()` invocation:
+
+{
+  data: {
+    officeCode: "2",
+    city: "New York",
+    phone: "123-456-7890",
+    addressLine1: "123 5th Avenue",
+    addressLine2: "Suite Liber 100",
+    state: "NY",
+    postalCode: "10001",
+    country: "USA",
+    territory: "North America",
+    employees: {
+      create: {
+        lastName: "9999",
+        officeCode: "2",
+        ~~~~~~~~~~
+        firstName: "Caitlyn",
+        extension: "k564",
+        email: "toanhduc@gmail.com",
+        jobTitle: "Staff",
+?       reportsTo?: Int | Null,
+?       customers?: customersCreateNestedManyWithoutEmployeesInput,
+?       users?: usersCreateNestedManyWithoutEmployeesInput
+      }
+    }
+  }
+}
+
+Unknown argument `officeCode`. Available options are marked with ?.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7392)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async Object.createOffice (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/officeService.js:16:3)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/officeController.js:5:18
+2024-08-25 03:11:02 [ERROR]: Error: Invalid or expired token
+    at authentication (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authenticate.js:26:7)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+2024-08-25 16:12:36 [ERROR]: Error: Wrong username or password
+    at Object.loginUser (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/userService.js:39:11)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/userController.js:10:17
+2024-08-25 16:31:13 [ERROR]: TypeError: reportService.generateReport is not a function
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/reportController.js:5:38
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-25 16:31:55 [ERROR]: TypeError: reportService.generateReport is not a function
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/reportController.js:5:38
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-25 16:32:23 [ERROR]: TypeError: prisma.sql is not a function
+    at Object.getSaleInformation (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/reportService.js:142:89)
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/reportController.js:5:38
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-25 16:34:55 [ERROR]: TypeError: prisma.sql is not a function
+    at Object.getSaleInformation (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/reportService.js:142:92)
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/reportController.js:5:38
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-25 16:34:57 [ERROR]: TypeError: prisma.sql is not a function
+    at Object.getSaleInformation (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/reportService.js:142:92)
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/reportController.js:5:38
+    at file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/utils/catchAsync.js:3:5
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\route.js:149:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-08-25 22:21:21 [ERROR]: Error: Invalid or expired token
+    at authentication (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/auth/authenticate.js:26:7)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+    at D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\express\lib\router\index.js:328:13)
+2024-08-25 22:47:10 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.employees.findUnique()` invocation:
+
+{
+  where: {
+    employeeNumber: {
+      start_date: new Date("2024-01-20T00:00:00.000Z"),
+      end_date: new Date("2024-12-30T00:00:00.000Z"),
+      employeeNumber: 1
+    }
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  }
+}
+
+Argument `employeeNumber`: Invalid value provided. Expected Int, provided Object.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at _n.handleRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7392)
+    at _n.handleAndLogRequestError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:7057)
+    at _n.request (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:121:6741)
+    at async l (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:130:9355)
+    at async getEmployee (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/reportService.js:110:20)
+    at async generateEmployeeReport (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/reportService.js:122:20)
+    at async Object.generateReport (file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/services/reportService.js:154:12)
+    at async file:///D:/Study/Fsoft/Node%20Documents/Node%20Assignments/Unit%203/src/controllers/reportController.js:5:18
+2024-08-25 22:49:25 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.orders.findMany()` invocation:
+
+{
+  where: {
+    customerNumber: 1,
+    orderDate: {
+      gte: new Date("Invalid Date"),
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+      lte: new Date("Invalid Date")
+    }
+  },
+  include: {
+    orderdetails: {
+      include: {
+        products: {
+          include: {
+            productlines: true
+          }
+        }
+      }
+    }
+  }
+}
+
+Invalid value for argument `gte`: Provided Date object is invalid. Expected Date.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at e.throwValidationError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:12187)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10208)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at Ar (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8607)
+    at el (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8472)
+2024-08-25 22:49:48 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.orders.findMany()` invocation:
+
+{
+  where: {
+    customerNumber: 1,
+    orderDate: {
+      gte: new Date("Invalid Date"),
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+      lte: new Date("Invalid Date")
+    }
+  },
+  include: {
+    orderdetails: {
+      include: {
+        products: {
+          include: {
+            productlines: true
+          }
+        }
+      }
+    }
+  }
+}
+
+Invalid value for argument `gte`: Provided Date object is invalid. Expected Date.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at e.throwValidationError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:12187)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10208)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at Ar (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8607)
+    at el (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8472)
+2024-08-25 22:50:09 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.orders.findMany()` invocation:
+
+{
+  where: {
+    customerNumber: 1,
+    orderDate: {
+      gte: new Date("Invalid Date"),
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+      lte: new Date("Invalid Date")
+    }
+  },
+  include: {
+    orderdetails: {
+      include: {
+        products: {
+          include: {
+            productlines: true
+          }
+        }
+      }
+    }
+  }
+}
+
+Invalid value for argument `gte`: Provided Date object is invalid. Expected Date.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at e.throwValidationError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:12187)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10208)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at Ar (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8607)
+    at el (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8472)
+2024-08-25 22:50:28 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.orders.findMany()` invocation:
+
+{
+  where: {
+    customerNumber: 1,
+    orderDate: {
+      gte: new Date("Invalid Date"),
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+      lte: new Date("Invalid Date")
+    }
+  },
+  include: {
+    orderdetails: {
+      include: {
+        products: {
+          include: {
+            productlines: true
+          }
+        }
+      }
+    }
+  }
+}
+
+Invalid value for argument `gte`: Provided Date object is invalid. Expected Date.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at e.throwValidationError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:12187)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10208)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at Ar (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8607)
+    at el (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8472)
+2024-08-25 22:51:01 [ERROR]: PrismaClientValidationError: 
+Invalid `prisma.orders.findMany()` invocation:
+
+{
+  where: {
+    customerNumber: 1,
+    orderDate: {
+      gte: new Date("Invalid Date"),
+           ~~~~~~~~~~~~~~~~~~~~~~~~
+      lte: new Date("Invalid Date")
+    }
+  },
+  include: {
+    orderdetails: {
+      include: {
+        products: {
+          include: {
+            productlines: true
+          }
+        }
+      }
+    }
+  }
+}
+
+Invalid value for argument `gte`: Provided Date object is invalid. Expected Date.
+    at An (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:7526)
+    at e.throwValidationError (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:12187)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10208)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at tl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:10901)
+    at rl (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:11344)
+    at Ar (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8607)
+    at el (D:\Study\Fsoft\Node Documents\Node Assignments\Unit 3\node_modules\@prisma\client\runtime\library.js:114:8472)

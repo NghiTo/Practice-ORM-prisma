@@ -1,0 +1,117 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model customers {
+  customerNumber         Int        @id @default(autoincrement())
+  customerName           String
+  contactLastName        String
+  contactFirstName       String
+  phone                  String
+  addressLine1           String
+  addressLine2           String?
+  city                   String
+  state                  String?
+  postalCode             String?
+  country                String
+  salesRepEmployeeNumber Int?
+  creditLimit            Float?
+  employees              employees? @relation(fields: [salesRepEmployeeNumber], references: [employeeNumber], onDelete: Cascade)
+  orders                 orders[]
+
+  @@index([salesRepEmployeeNumber], map: "customers_salesRepEmployeeNumber_fkey")
+}
+
+model employees {
+  employeeNumber Int         @id @default(autoincrement())
+  lastName       String
+  firstName      String
+  extension      String
+  email          String      @unique
+  officeCode     String
+  reportsTo      Int?
+  jobTitle       String
+  customers      customers[]
+  offices        offices     @relation(fields: [officeCode], references: [officeCode], onDelete: Cascade)
+  users          users[]
+
+  @@index([officeCode], map: "employees_officeCode_fkey")
+}
+
+model offices {
+  officeCode   String      @id @db.VarChar(255)
+  city         String      @db.VarChar(255)
+  phone        String      @db.VarChar(255)
+  addressLine1 String      @db.VarChar(255)
+  addressLine2 String      @db.VarChar(255)
+  state        String?     @db.VarChar(255)
+  country      String      @db.VarChar(255)
+  postalCode   String?     @db.VarChar(255)
+  territory    String?     @db.VarChar(255)
+  employees    employees[]
+}
+
+model orderdetails {
+  orderNumber     Int      @default(autoincrement())
+  productCode     String   @db.VarChar(255)
+  quantityOrdered Int
+  priceEach       Decimal  @db.Decimal(10, 2)
+  orderLineNumber Int
+  orders          orders   @relation(fields: [orderNumber], references: [orderNumber], onDelete: NoAction, map: "orderdetails_ibfk_1")
+  products        products @relation(fields: [productCode], references: [productCode], onDelete: NoAction, map: "orderdetails_ibfk_2")
+
+  @@id([orderNumber, productCode])
+  @@index([productCode], map: "productCode")
+}
+
+model orders {
+  orderNumber    Int            @id @default(autoincrement())
+  orderDate      DateTime?      @db.Date
+  requiredDate   DateTime?      @db.Date
+  shippedDate    DateTime?      @db.Date
+  status         String?        @db.VarChar(255)
+  Comment        String?        @db.VarChar(255)
+  customerNumber Int?
+  orderdetails   orderdetails[]
+  customers      customers?     @relation(fields: [customerNumber], references: [customerNumber], onDelete: NoAction, map: "orders_ibfk_1")
+
+  @@index([customerNumber], map: "customerNumber")
+}
+
+model productlines {
+  productLine     String     @id @db.VarChar(255)
+  textDescription String     @db.VarChar(255)
+  htmlDescription String     @db.VarChar(255)
+  image           String     @db.VarChar(255)
+  products        products[]
+}
+
+model products {
+  productCode        String         @id @db.VarChar(255)
+  productName        String         @db.VarChar(255)
+  productLine        String         @db.VarChar(255)
+  productScale       String         @db.VarChar(255)
+  productVendor      String         @db.VarChar(255)
+  productDescription String         @db.VarChar(255)
+  quantityInStock    Int
+  buyPrice           Decimal        @db.Decimal(10, 2)
+  MSRP               Decimal        @db.Decimal(10, 2)
+  orderdetails       orderdetails[]
+  productlines       productlines   @relation(fields: [productLine], references: [productLine], onDelete: NoAction, map: "products_ibfk_1")
+
+  @@index([productLine], map: "productLine")
+}
+
+model users {
+  username       String    @id @unique(map: "username") @db.VarChar(255)
+  password       String    @db.VarChar(255)
+  employeeNumber Int
+  employees      employees @relation(fields: [employeeNumber], references: [employeeNumber], onDelete: Cascade, map: "users_ibfk_1")
+
+  @@index([employeeNumber], map: "employeeNumber")
+}
